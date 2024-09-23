@@ -1,0 +1,39 @@
+h1{
+    background-color: antiquewhite;
+    color:black;
+}
+
+.class{
+    color:rgb(221, 194, 194);
+    font-size: 1.5rem;
+
+}
+
+.newClass{
+
+    background:green;
+    height: 2rem;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 1rem;
+}
+
+
+.content{
+    width:220px;
+    height: 220px;
+    background-color:blue;
+    color: white;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 2rem;
+
+
+}
+
+ul li{
+    padding: 10px;
+}

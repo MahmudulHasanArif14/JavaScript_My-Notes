@@ -1,11 +1,12 @@
-//variable can be declare by let,const,var;
-let aler=document.querySelector(".alert");
+//variable can be declare by let,const,var
+
+let alrt=document.querySelector(".alert");
 let edit=document.querySelector(".edit");
 let text=document.querySelector(".text");
-aler.addEventListener("click",alrt);
+alrt.addEventListener("click",al);
 edit.addEventListener("click",ed);
 
-function alrt(){
+function al(){
 
     alert("Hey this is alert");
 
@@ -92,29 +93,31 @@ console.log(subjec["no"]);//no r value using []
 
 //object
 
-// let course={
-//     lecture:10,
-//     title:"Js",
+let course={
+    lecture:10,
+    title:"Js",
 
-//nested object
-//     notes:{
-//         name:"book"
-//     },
-//     //: r ager etare koy property object r 
+//! nested object
 
-//     //object r bitre function use krle etare koy method
-//     enroll(){
+    notes:{
+        name:"book"
+    },
 
-//         console.log("enroll");
-//     }
-// }
+  //!: r ager etare koy property object r 
 
-// course.enroll()
-// console.log(course.title)
+   //object r bitre function use krle etare koy method
+    enroll(){
+
+        console.log("enroll");
+    }
+}
+
+course.enroll()
+console.log(course.title)
 
 //object r bahire theke data add krte
 
-//course.new=333;
+course.new=333;
 
 
 
@@ -143,4 +146,4 @@ function createcourse(){
 }
 }
 
-
+document.write("Hello")
